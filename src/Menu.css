@@ -1,0 +1,24 @@
+.Menu {
+    width: 135px;
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+.Menu ul {
+    margin-top: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.Menu li {
+    height: 30px;
+    line-height: 2;
+}
+.Menu li.active {
+    opacity: 0.5;
+}
+
+.name {
+    margin-bottom: 10px;
+}

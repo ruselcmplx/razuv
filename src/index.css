@@ -1,5 +1,22 @@
+@font-face {
+    font-family: 'SuisseIntl';
+    src: url('./fonts/M/SuisseIntl-Book-WebM.eot');
+    src: url('./fonts/M/SuisseIntl-Book-WebM.svg') format('svg');
+    src: url('./fonts/M/SuisseIntl-Book-WebM.ttf') format('ttf');
+    src: url('./fonts/M/SuisseIntl-Book-WebM.woff') format('woff');
+}
+html {
+    height: 100%;
+}
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'SuisseIntl';
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    background-color: #000000;
 }
