@@ -1,9 +1,12 @@
 .Menu {
+    display: inline-block;
+    position: relative;
     width: 135px;
     color: #ffffff;
     font-size: 15px;
     margin-left: 15px;
     margin-top: 30px;
+    vertical-align: top;
 }
 .Menu ul {
     margin-top: 10px;

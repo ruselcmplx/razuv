@@ -9,14 +9,17 @@ class Menu extends Component {
 
    render() {
       const activeClass = 'active';
+      const activeId = this.props.active;
+      const menuItems = this.props.menuItems;
       return(
          <div className='Menu'>
             <div className='name'>Алексей Разуваев</div>
             <ul>
-               <li onClick={() => { this.props.onClick(0) }} className={ this.props.active === 0 ? activeClass : ''}>Работы</li>
-               <li onClick={() => { this.props.onClick(1) }} className={ this.props.active === 1 ? activeClass : ''}>Биография</li>
-               <li onClick={() => { this.props.onClick(2) }} className={ this.props.active === 2 ? activeClass : ''}>Контакты</li>
-               <li onClick={() => { this.props.onClick(3) }} className={ this.props.active === 3 ? activeClass : ''}>English</li>
+               {menuItems.map((item) => {
+                  const id = item.id;
+                  const name = item.value;
+                  return <li key={id} onClick={() => { this.props.onClick(id) }} className={activeId === id ? activeClass : ''}>{name}</li>
+               })}
             </ul>
          </div>
       )
