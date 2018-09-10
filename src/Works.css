@@ -2,11 +2,25 @@
     display: inline-block;
     position: relative;
     color: #ffffff;
-    margin-left: 30px;
     margin-top: 30px;
     vertical-align: top;
-    width: 1020px;
+    width: 1000px;
+    padding-right: 20px;
 }
 .Works .Head {
     margin-bottom: 10px;
+}
+
+@media all and (max-width: 1200px)
+{
+    .Works {
+        width: 820px;
+    }
+}
+
+@media all and (min-width: 1400px)
+{
+    .Works {
+        width: 1200px;
+    }
 }
