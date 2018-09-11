@@ -6,4 +6,20 @@
     width: 180px;
     height: 180px;
     border: 1px solid #ffffff;
+    padding: 15px;
+    clear: both;
+    overflow: hidden;
+}
+
+.Tile_name-noact {
+    opacity: 0.5;
+}
+
+.Tile_name-nda {
+    text-decoration: line-through;
+}
+
+.Tile_tags {
+    position: absolute;
+    bottom: 10px;
 }

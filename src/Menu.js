@@ -11,9 +11,10 @@ class Menu extends Component {
       const activeClass = 'active';
       const activeId = this.props.active;
       const menuItems = this.props.menuItems;
+      
       return(
          <div className='Menu'>
-            <div className='name'>Алексей Разуваев</div>
+            <div className='Menu_name'>Алексей Разуваев</div>
             <ul>
                {menuItems.map((item) => {
                   const id = item.id;

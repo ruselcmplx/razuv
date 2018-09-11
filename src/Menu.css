@@ -16,11 +16,12 @@
 .Menu li {
     height: 30px;
     line-height: 2;
+    cursor: pointer;
 }
 .Menu li.active {
     opacity: 0.5;
 }
 
-.name {
+.Menu_name {
     margin-bottom: 10px;
 }
