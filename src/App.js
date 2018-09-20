@@ -11,7 +11,8 @@ class App extends Component {
       this.state = {
          active: 0,
          menuItems: data.menu.ru,
-         lang: true
+         lang: true,
+         name: data.app.name.ru
       }
    }
 
@@ -19,7 +20,8 @@ class App extends Component {
       if (id === 3) {
          this.setState({
             lang: !this.state.lang,
-            menuItems: !this.state.lang ? data.menu.ru : data.menu.en
+            menuItems: !this.state.lang ? data.menu.ru : data.menu.en,
+            name: !this.state.lang ? data.app.name.ru : data.app.name.en
          })
          return;
       }
@@ -29,9 +31,10 @@ class App extends Component {
    }
 
    render() {
-      const active = this.state.active;
-      const menuItems = this.state.menuItems;
-      const lang = this.state.lang;
+      let active = this.state.active;
+      let menuItems = this.state.menuItems;
+      let lang = this.state.lang;
+      let name = this.state.name;
       let years = data.works.years;
       let works = lang ? data.works.ru : data.works.en;
       let work;
@@ -40,7 +43,7 @@ class App extends Component {
       }
       return (
          <div className="App">
-            <Menu active={active} menuItems={menuItems} onClick={this.handleMenuClick.bind(this)}/>
+            <Menu name={name} active={active} menuItems={menuItems} onClick={this.handleMenuClick.bind(this)}/>
             {work}
          </div>
       );

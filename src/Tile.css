@@ -20,6 +20,7 @@
 }
 
 .Tile_tags {
+    width: 120px;
     position: absolute;
     bottom: 10px;
 }
