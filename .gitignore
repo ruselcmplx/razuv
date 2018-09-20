@@ -6,11 +6,6 @@
 # testing
 /coverage
 
-# production
-#/build
-/src
-/public
-
 # misc
 .DS_Store
 .env.local
