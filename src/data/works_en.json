@@ -1,0 +1,25 @@
+{
+    "years": [2018, 2017, 2016, 2015],
+    "works": [
+        {"id": 0, "name": "Vyhod", "tags": ["identity","web"], "year": 2018, "active": false},
+        {"id": 1, "name": "Schi", "tags": ["identity","web"], "year": 2018, "active": false},
+        {"id": 2, "name": "Fiteria", "tags": ["web"], "year": 2018, "active": false},
+        {"id": 3, "name": "451 Lab", "tags": ["identity"], "year": 2018, "active": false},
+        {"id": 4, "name": "Mayak", "tags": ["identity"], "year": 2018, "active": true},
+        {"id": 6, "name": "Natural Fetch", "tags": ["identity", "pack", "web"], "year": 2018, "active": true},
+        {"id": 7, "name": "Bruits", "tags": ["identity"], "year": 2018, "active": true},
+        {"id": 8, "name": "Serious Soapery", "tags": ["identity"], "year": 2017, "active": true},
+        {"id": 9, "name": "RSUH", "tags": ["identity","pack"], "year": 2017, "active": true},
+        {"id": 10, "name": "The Moscow Cakery", "tags": ["identity"], "year": 2017, "active": true},
+        {"id": 11, "name": "Melegal", "tags": ["identity"], "year": 2017, "active": true},
+        {"id": 12, "name": "Vector", "tags": ["web"], "year": 2017, "active": true},
+        {"id": 13, "name": "NetOne", "tags": ["web"], "year": 2017, "active": null},
+        {"id": 14, "name": "Mostelecom", "tags": ["web"], "year": 2017, "active": null},
+        {"id": 15, "name": "Pixyl", "tags": ["identity","pack"], "year": 2016, "active": true},
+        {"id": 16, "name": "Voskresen'e", "tags": ["identity"], "year": 2015, "active": true},
+        {"id": 17, "name": "LUNAZINE", "tags": ["identity"], "year": 2015, "active": true},
+        {"id": 18, "name": "Playpoint", "tags": ["identity","web"], "year": 2015, "active": true},
+        {"id": 19, "name": "Defnox", "tags": ["identity"], "year": 2015, "active": true},
+        {"id": 20, "name": "Coffeemall", "tags": ["identity"], "year": 2015, "active": true}
+    ]
+}
