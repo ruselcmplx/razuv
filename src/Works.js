@@ -1,23 +1,15 @@
 import React, { Component } from 'react';
 import Tile from './Tile.js'
 import './Works.css'
-import data from './data/works_ru.json'
 
 class Works extends Component {
    constructor(props) {
       super(props);
       this.state = {
-         tiles: [],
-         years: []
+         works: this.props.works,
+         years: this.props.years
       }
    }
-
-   componentWillMount () {
-      this.setState({
-         works: data.works,
-         years: data.years
-      })
-  }
 
    renderTiles(works) {
       let tiles = [];
@@ -26,8 +18,8 @@ class Works extends Component {
    }
 
    render() {
-      const years = this.state.years;
-      const works = this.state.works;
+      const years = this.props.years;
+      const works = this.props.works;
       
       return(
          <div className="Works">

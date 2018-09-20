@@ -3,7 +3,6 @@ import './Menu.css';
 
 class Menu extends Component {
    onClick(id) {
-      console.log(this.id);
       this.props.onClick(id);
    }
 
