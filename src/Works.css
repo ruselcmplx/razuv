@@ -1,10 +1,6 @@
 .Works {
     display: inline-block;
     position: relative;
-    color: #ffffff;
-    margin-top: 30px;
-    vertical-align: top;
-    width: calc(100% - 180px);
 }
 .Works .Head {
     margin-bottom: 10px;

@@ -1,5 +1,12 @@
 .App {
   background-color: #000000;
   height: 100%;
-  display: inline-block;
+}
+
+.App .ActiveArea {
+    display: inline-block;
+    position: relative;
+    color: #ffffff;
+    margin-top: 30px;
+    width: calc(100% - 180px);
 }

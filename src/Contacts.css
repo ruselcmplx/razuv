@@ -1,0 +1,27 @@
+.Contacts .Content {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30px;
+}
+
+.Contacts .MessageForm_Header {
+    margin-bottom: 11px;
+}
+
+.Contacts .MessageForm {
+    width: 420px;
+}
+
+.Contacts .MessageForm .PersonalData {
+    opacity: 0.5;
+    width: 100%;
+}
+
+.Contacts .SocialsLinks a {
+    color: #ffffff;
+}
+
+.Contacts .SocialsLinks a:visited {
+    color: #ffffff;
+}

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Menu from './Menu.js';
 import Works from './Works.js';
+import Contacts from './Contacts.js';
 import './App.css';
 import data from './data/data.json'
 
@@ -9,7 +10,7 @@ class App extends Component {
    constructor(props) {
       super(props);
       this.state = {
-         active: 0,
+         active: 2,
          menuItems: data.menu.ru,
          lang: true,
          name: data.app.name.ru
@@ -37,14 +38,21 @@ class App extends Component {
       let name = this.state.name;
       let years = data.works.years;
       let works = lang ? data.works.ru : data.works.en;
-      let work;
-      if (active === 0) {
-         work = <Works lang={lang} works={works} years={years} />
+      let activeArea;
+      switch (active) {
+         case 0:
+            activeArea = <Works works={works} years={years} />
+            break;
+         case 2:
+            activeArea = <Contacts lang={lang} />
+            break;
+         default:
+            break;
       }
       return (
          <div className="App">
             <Menu name={name} active={active} menuItems={menuItems} onClick={this.handleMenuClick.bind(this)}/>
-            {work}
+            <div className="ActiveArea">{activeArea}</div>
          </div>
       );
    }

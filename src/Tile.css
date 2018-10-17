@@ -9,6 +9,7 @@
     padding: 15px;
     clear: both;
     overflow: hidden;
+    vertical-align: top;
 }
 
 .Tile_name-noact {
