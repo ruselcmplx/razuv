@@ -10,7 +10,7 @@ class App extends Component {
    constructor(props) {
       super(props);
       this.state = {
-         active: 2,
+         active: 0,
          menuItems: data.menu.ru,
          lang: true,
          name: data.app.name.ru
