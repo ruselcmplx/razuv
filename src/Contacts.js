@@ -57,7 +57,7 @@ class Contacts extends Component {
                <div className="MessageForm_Header">{strings.headerSocials}</div>
                <div className="SocialsLinks">
                   {strings.socials.map(social => {
-                     return <div key={social.id}><a href="#">{social.name}</a></div>
+                     return <div key={social.id}><a href="">{social.name}</a></div>
                   })}
                </div>
             </div>
