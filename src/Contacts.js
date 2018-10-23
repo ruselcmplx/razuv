@@ -7,7 +7,7 @@ let strings = {
       "header": "Написать можно здесь",
       "headerSocials": "Или здесь",
       "messagePH": "Сообщение",
-      "emailPH": "Ваш e-mail",
+      "emailPH": "Ваш имейл",
       "send": "Отправить",
       "personalData": "Нажимая «Отправить», вы даете согласие на обработку персональных данных и соглашаетесь c политикой конфиденциальности.",
       "socials": [
@@ -18,7 +18,7 @@ let strings = {
       ]
    },
    "en": {
-      "header": "Leave message for me here",
+      "header": "You may message me here",
       "headerSocials": "...or here",
       "messagePH": "Your message",
       "emailPH": "Your email",
