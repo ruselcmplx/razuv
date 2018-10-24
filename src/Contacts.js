@@ -11,10 +11,10 @@ let strings = {
       "send": "Отправить",
       "personalData": "Нажимая «Отправить», вы даете согласие на обработку персональных данных и соглашаетесь c политикой конфиденциальности.",
       "socials": [
-         {"id": "vk", "name": "ВКонтакте"},
-         {"id": "fb", "name": "Фейсбук"},
-         {"id": "tg", "name": "Телеграм"},
-         {"id": "bh", "name": "Беханс"}
+         {"id": "vk", "name": "ВКонтакте", "link": "https://vk.com/razuvaev"},
+         {"id": "fb", "name": "Фейсбук", "link": "https://fb.com/berazuvaev"},
+         {"id": "tg", "name": "Телеграм", "link": "https://t.me/razuvaev"},
+         {"id": "bh", "name": "Беханс", "link": "https://be.net/razuvaev"}
       ]
    },
    "en": {
@@ -25,10 +25,10 @@ let strings = {
       "send": "Send",
       "personalData": "By pressing ’’Send’’ you agree with Privacy Policy and Data Use Policy",
       "socials": [
-         {"id": "vk", "name": "VK"},
-         {"id": "fb", "name": "Facebook"},
-         {"id": "tg", "name": "Telegram"},
-         {"id": "bh", "name": "Behance"}
+         {"id": "vk", "name": "VK", "link": "https://vk.com/razuvaev"},
+         {"id": "fb", "name": "Facebook", "link": "https://fb.com/berazuvaev"},
+         {"id": "tg", "name": "Telegram", "link": "https://t.me/razuvaev"},
+         {"id": "bh", "name": "Behance", "link": "https://be.net/razuvaev"}
       ]
    }
 }
