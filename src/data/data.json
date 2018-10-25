@@ -20,7 +20,7 @@
         ]
     },
     "works": {
-        "years": [2018, 2017, 2016, 2015],
+        "years": [2018, 2017, 2016, 2015, 2014],
         "ru": [
             {"id": 0, "name": "Выход", "tags": ["айдентика","веб"], "year": 2018, "active": false},
             {"id": 1, "name": "ЩИ", "tags": ["айдентика","веб"], "year": 2018, "active": false},
@@ -41,7 +41,7 @@
             {"id": 16, "name": "LUNAZINE", "tags": ["айдентика"], "year": 2015, "active": true},
             {"id": 17, "name": "Playpoint", "tags": ["айдентика","веб"], "year": 2015, "active": true},
             {"id": 18, "name": "Defnox", "tags": ["айдентика"], "year": 2015, "active": true},
-            {"id": 19, "name": "Кофемолл", "tags": ["айдентика"], "year": 2015, "active": true}
+            {"id": 19, "name": "Кофемолл", "tags": ["айдентика"], "year": 2014, "active": true}
         ]
         ,
         "en": [
@@ -64,7 +64,7 @@
             {"id": 17, "name": "LUNAZINE", "tags": ["identity"], "year": 2015, "active": true},
             {"id": 18, "name": "Playpoint", "tags": ["identity","web"], "year": 2015, "active": true},
             {"id": 19, "name": "Defnox", "tags": ["identity"], "year": 2015, "active": true},
-            {"id": 20, "name": "Coffeemall", "tags": ["identity"], "year": 2015, "active": true}
+            {"id": 20, "name": "Coffeemall", "tags": ["identity"], "year": 2014, "active": true}
         ]
     }
 }
