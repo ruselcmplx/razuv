@@ -1,5 +1,5 @@
 {
-    "years": [2018, 2017, 2016, 2015],
+    "years": [2018, 2017, 2016, 2015, 2014],
     "works": [
         {"id": 0, "name": "Vyhod", "tags": ["identity","web"], "year": 2018, "active": false},
         {"id": 1, "name": "Schi", "tags": ["identity","web"], "year": 2018, "active": false},
@@ -20,6 +20,6 @@
         {"id": 17, "name": "LUNAZINE", "tags": ["identity"], "year": 2015, "active": true},
         {"id": 18, "name": "Playpoint", "tags": ["identity","web"], "year": 2015, "active": true},
         {"id": 19, "name": "Defnox", "tags": ["identity"], "year": 2015, "active": true},
-        {"id": 20, "name": "Coffeemall", "tags": ["identity"], "year": 2015, "active": true}
+        {"id": 20, "name": "Coffeemall", "tags": ["identity"], "year": 2014, "active": true}
     ]
 }

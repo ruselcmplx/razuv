@@ -1,5 +1,5 @@
 {
-    "years": [2018, 2017, 2016, 2015],
+    "years": [2018, 2017, 2016, 2015, 2014],
     "works": [
         {"id": 0, "name": "Выход", "tags": ["айдентика","веб"], "year": 2018, "active": false},
         {"id": 1, "name": "ЩИ", "tags": ["айдентика","веб"], "year": 2018, "active": false},
@@ -20,6 +20,6 @@
         {"id": 16, "name": "LUNAZINE", "tags": ["айдентика"], "year": 2015, "active": true},
         {"id": 17, "name": "Playpoint", "tags": ["айдентика","веб"], "year": 2015, "active": true},
         {"id": 18, "name": "Defnox", "tags": ["айдентика"], "year": 2015, "active": true},
-        {"id": 19, "name": "Кофемолл", "tags": ["айдентика"], "year": 2015, "active": true}
+        {"id": 19, "name": "Кофемолл", "tags": ["айдентика"], "year": 2014, "active": true}
     ]
 }
