@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Menu from './Menu.js';
 import Works from './Works.js';
+import Bio from './Bio.js';
 import Contacts from './Contacts.js';
 import './App.css';
 import data from './data/data.json'
@@ -42,6 +43,9 @@ class App extends Component {
       switch (active) {
          case 0:
             activeArea = <Works works={works} years={years} />
+            break;
+         case 1:
+            activeArea = <Bio lang={lang}/>
             break;
          case 2:
             activeArea = <Contacts lang={lang} />
