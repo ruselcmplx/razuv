@@ -11,7 +11,7 @@ let links = {
 }
 
 
-class Bio extends Component {
+class Bio extends Component
    onContactClick = () => {
       this.props.onContactClick();
    }
@@ -48,10 +48,10 @@ class Bio extends Component {
             "profileText": "Since 2012 I am learning on my own at creating brand identities, graphic design, UI and UX design and animating interfaces.",
             "profileActivities": 
                <p key="profile_activities">
-                  Also I love to <a href={links.music}>make playlists</a>, 
-                  make good ideas come true (sometimes for free),&nbsp;
+                  Also I love <a href={links.music}>making playlists</a>, 
+                  making good ideas come true (sometimes for free),&nbsp;
                   <a href={links.experiment}>experimenting</a> on Blank Poster 
-                  and <a href={links.noise}>making noise</a> on Tumblr.
+                  and <a href={links.noise}>making noise</a> on Tumblr. Feel free to <a onClick={this.onContactClick}>contact</a> me!
                </p>
             ,
             "inventory": "Inventory",
