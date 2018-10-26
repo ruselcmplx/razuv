@@ -2,21 +2,20 @@ import React, { Component } from 'react';
 import './Bio.css'
 
 let links = {
-   "music": "1",
+   "music": "https://vk.com/bruits",
    "contact": "2",
-   "experiment":  "3",
-   "noise": "4",
-   "relap": "5",
-   "blackidea": "6",
-   "gridly": "7",
-   "strelka": "8"
+   "experiment":  "http://blankposter.com/?cftype=author&cfval=Alexey%20Razuvaev",
+   "noise": "http://razuvaev.tumblr.com",
+   "relap": "https://relap.io",
+   "gridly": "https://gridly.ru",
+   "strelka": "http://strelka.com"
 }
 
 let strings = {
    
    "ru": {
       "profile": "Профиль",
-      "profileText": "Самоучусь на ошибках с 2012 года. Занимаюсь айдентикой, графдизайном, дизайном интерфейсов, упаковки, анимацией интерфейсов, разрабатываю пользовательское взаимодействие",
+      "profileText": "Самоучусь на ошибках с 2012 года. Занимаюсь айдентикой, графдизайном, дизайном интерфейсов, упаковки, анимацией интерфейсов, разрабатываю пользовательское взаимодействие.",
       "profileActivities": 
          <div className="ProfileActivities">
             <p><a href={links.music}>Пишу</a> про музыку.</p>
@@ -28,12 +27,12 @@ let strings = {
          </div>
       ,
       "inventory": "Инвентарь",
-      "inventoryText": "Adobe Illustrator, Photoshop, Premiere, After Effects, Sketch, Principle, Figma, Cinema 4D, Pixelmator Pro",
+      "inventoryText": "Illustrator, Photoshop, Premiere, After Effects, Sketch, Principle, Figma, Cinema 4D, Pixelmator Pro, Affinity Designer",
       "teams": "Команды",
       "teamsLinks":
          <div>
             <p><a href={links.relap}>Relap.io</a></p>
-            <p><a href={links.blackidea}>Блэкайдиа</a></p>
+            <p>Блэкайдиа</p>
             <p><a href={links.gridly}>Гридли</a></p>
             <p><a href={links.strelka}>Институт «Стрелка»</a></p>
             <p>Воск Криейтив Медиа</p>
@@ -45,18 +44,18 @@ let strings = {
       "profileActivities": [
          <p>
             Also I love to <a href={links.music}>make playlists</a>, 
-            make good ideas come true (sometimes for free), 
+            make good ideas come true (sometimes for free),&nbsp;
             <a href={links.experiment}>experimenting</a> on Blank Poster 
             and <a href={links.noise}>making noise</a> on Tumblr.
          </p>
       ],
       "inventory": "Inventory",
-      "inventoryText": "Adobe Illustrator, Photoshop, Premiere, After Effects, Sketch, Principle, Figma, Cinema 4D, Pixelmator Pro",
+      "inventoryText": "Illustrator, Photoshop, Premiere, After Effects, Sketch, Principle, Figma, Cinema 4D, Pixelmator Pro, Affinity Designer",
       "teams": "Teams",
       "teamsLinks": [
          <div className="TeamLinks">
             <p><a href={links.relap}>Relap.io</a></p>
-            <p><a href={links.blackidea}>Blackidea</a></p>
+            <p>Blackidea</p>
             <p><a href={links.gridly}>Gridly</a></p>
             <p><a href={links.strelka}>Strelka Institute</a></p>
             <p>WOSQ Creative Media</p>
