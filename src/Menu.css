@@ -1,6 +1,6 @@
 .Menu {
     display: inline-block;
-    position: relative;
+    position: fixed;
     width: 135px;
     color: #ffffff;
     font-size: 15px;
