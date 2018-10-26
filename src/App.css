@@ -14,6 +14,8 @@
 
 .App a {
     color: #ffffff;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .App a:visited {

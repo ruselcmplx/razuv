@@ -18,6 +18,12 @@ class App extends Component {
       }
    }
 
+   onContactClick() {
+      this.setState({
+         active: 2
+      })
+   }
+
    handleMenuClick(id) {
       if (id === 3) {
          this.setState({
@@ -45,7 +51,7 @@ class App extends Component {
             activeArea = <Works works={works} years={years} />
             break;
          case 1:
-            activeArea = <Bio lang={lang}/>
+            activeArea = <Bio lang={lang} onContactClick={this.onContactClick.bind(this)}/>
             break;
          case 2:
             activeArea = <Contacts lang={lang} />
