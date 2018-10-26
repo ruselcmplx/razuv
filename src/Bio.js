@@ -83,7 +83,7 @@ class Bio extends Component {
             <div className="Profile Content">
                <div className="Header">{strings.profile}</div>
                <div className="Text">{strings.profileText}</div>
-               <div className="Profile_Activities">{strings.profileActivities}</div>
+               <div className="Text">{strings.profileActivities}</div>
             </div>
             <div className="Content">
                <div className="Inventory">
