@@ -11,7 +11,7 @@ let links = {
 }
 
 
-class Bio extends Component
+class Bio extends Component {
    onContactClick = () => {
       this.props.onContactClick();
    }
