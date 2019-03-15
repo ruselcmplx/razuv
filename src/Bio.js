@@ -32,7 +32,7 @@ class Bio extends Component {
                </div>
             ,
             "inventory": "Инвентарь",
-            "inventoryText": "Illustrator, Photoshop, Premiere, After Effects, Sketch, Principle, Figma, Cinema 4D, Pixelmator Pro, Affinity Designer",
+            "inventoryText": "Illustrator, Photoshop, Premiere, After Effects, Adobe XD, Sketch, Principle, Figma, Cinema 4D, Pixelmator Pro, Affinity Designer",
             "teams": "Команды",
             "teamsLinks":
                <div>
