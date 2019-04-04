@@ -1,0 +1,12 @@
+.Works {
+    display: inline-block;
+    position: relative;
+}
+.Works .Head {
+    margin-bottom: 10px;
+}
+
+@media all and (max-width: 1440px)
+{
+
+}

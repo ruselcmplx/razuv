@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Menu.css';
+import './css/Menu.css';
 
 class Menu extends Component {
    onClick(id) {

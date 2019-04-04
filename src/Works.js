@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Tile from './Tile.js'
-import './Works.css'
+import Work from './Work.js';
+import './css/Works.css'
 
 class Works extends Component {
    constructor(props) {
@@ -13,24 +14,28 @@ class Works extends Component {
 
    renderTiles(works) {
       let tiles = [];
-      works.map(tile => tiles.push(<Tile key={tile.id} name={tile.name} tags={tile.tags} active={tile.active}/>));
+      works.map(tile => tiles.push(<Tile key={tile.id} data={tile} onTileClick={this.props.onTileClick}/>));
       return tiles;
    }
 
    render() {
-      const years = this.props.years;
-      const works = this.props.works;
+      const years = this.state.years;
+      const works = this.state.works;
       
-      return(
-         <div className="Works">
-            {years.map(year => {
-               return <div key={year}>
-                        <div className="Head">{year}</div>
-                        <div>{this.renderTiles(works.filter(work => work.year === year))}</div>
-                     </div>
-            })}
-         </div>
-      )
+      if (this.props.currentWork) {
+         return(<Work work={this.props.currentWork}/>);
+      } else {
+         return(
+            <div className="Works">
+               {years.map(year => {
+                  return <div key={year}>
+                           <div className="Head">{year}</div>
+                           <div>{this.renderTiles(works.filter(work => work.year === year))}</div>
+                        </div>
+               })}
+            </div>
+         )
+      }
    }
 }
 

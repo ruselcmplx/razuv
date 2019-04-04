@@ -1,0 +1,27 @@
+.Menu {
+    display: inline-block;
+    position: fixed;
+    width: 135px;
+    color: #ffffff;
+    font-size: 15px;
+    margin: 30px 30px 0 15px;
+    vertical-align: top;
+}
+.Menu ul {
+    margin-top: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.Menu li {
+    height: 30px;
+    line-height: 2;
+    cursor: pointer;
+}
+.Menu li.active {
+    opacity: 0.5;
+}
+
+.Menu_name {
+    margin-bottom: 10px;
+}

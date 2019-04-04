@@ -3,7 +3,7 @@ import Menu from './Menu.js';
 import Works from './Works.js';
 import Bio from './Bio.js';
 import Contacts from './Contacts.js';
-import './App.css';
+import './css/App.css';
 import data from './data/data.json'
 
 
@@ -14,11 +14,12 @@ class App extends Component {
          active: 0,
          menuItems: data.menu.ru,
          lang: true,
-         name: data.app.name.ru
+         name: data.app.name.ru,
+         work: null
       }
    }
 
-   onContactClick() {
+   handleContactClick() {
       this.setState({
          active: 2
       })
@@ -34,34 +35,37 @@ class App extends Component {
          return;
       }
       this.setState({
-         active: id
+         active: id,
+         work: null
+      })
+   }
+
+   handleTileClick(work) {
+      this.setState({
+         active: 0,
+         work: work
       })
    }
 
    render() {
-      let active = this.state.active;
-      let menuItems = this.state.menuItems;
-      let lang = this.state.lang;
-      let name = this.state.name;
-      let years = data.works.years;
-      let works = lang ? data.works.ru : data.works.en;
+      let works = this.state.lang ? data.works.ru : data.works.en;
       let activeArea;
-      switch (active) {
+      switch (this.state.active) {
          case 0:
-            activeArea = <Works works={works} years={years} />
+            activeArea = <Works works={works} years={data.works.years} currentWork={this.state.work} onTileClick={this.handleTileClick.bind(this)}/>
             break;
          case 1:
-            activeArea = <Bio lang={lang} onContactClick={this.onContactClick.bind(this)}/>
+            activeArea = <Bio lang={this.state.lang} onContactClick={this.handleContactClick.bind(this)}/>
             break;
          case 2:
-            activeArea = <Contacts lang={lang} />
+            activeArea = <Contacts lang={this.state.lang} />
             break;
          default:
             break;
       }
       return (
          <div className="App">
-            <Menu name={name} active={active} menuItems={menuItems} onClick={this.handleMenuClick.bind(this)}/>
+            <Menu name={this.state.name} active={this.state.active} menuItems={this.state.menuItems} onClick={this.handleMenuClick.bind(this)}/>
             <div className="ActiveArea">{activeArea}</div>
          </div>
       );

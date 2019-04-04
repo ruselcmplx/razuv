@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ContactForm from './ContactForm.js'
-import './Contacts.css'
+import './css/Contacts.css'
 
 let strings = {
    "ru": {

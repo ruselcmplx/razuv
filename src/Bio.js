@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Bio.css'
+import './css/Bio.css'
 
 let links = {
    "music": "https://vk.com/bruits",
@@ -12,10 +12,6 @@ let links = {
 
 
 class Bio extends Component {
-   onContactClick = () => {
-      this.props.onContactClick();
-   }
-
    render() {
       let data = {
          "ru": {
@@ -26,7 +22,7 @@ class Bio extends Component {
                   <p><a href={links.music}>Пишу</a> про музыку.</p>
                   <p>Люблю реализовывать хорошие идеи.</p>
                   <p>Иногда делаю это бесплатно.</p>
-                  <p><a onClick={this.onContactClick}>Напишите</a>, вдруг вашей идее тоже повезёт.</p>
+                  <p><a onClick={this.props.onContactClick}>Напишите</a>, вдруг вашей идее тоже повезёт.</p>
                   <p><a href={links.experiment}>Экспериментирую</a> с постерами.</p>
                   <p><a href={links.noise}>Шумлю</a> в тамблере.</p>
                </div>
@@ -51,7 +47,7 @@ class Bio extends Component {
                   Also I love <a href={links.music}>making playlists</a>, 
                   making good ideas come true (sometimes for free),&nbsp;
                   <a href={links.experiment}>experimenting</a> on Blank Poster 
-                  and <a href={links.noise}>making noise</a> on Tumblr. Feel free to <a onClick={this.onContactClick}>contact</a> me!
+                  and <a href={links.noise}>making noise</a> on Tumblr. Feel free to <a onClick={this.props.onContactClick}>contact</a> me!
                </p>
             ,
             "inventory": "Inventory",
