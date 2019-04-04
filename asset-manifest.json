@@ -1,14 +1,14 @@
 {
-  "main.css": "/static/css/main.551ccf79.chunk.css",
-  "main.js": "/static/js/main.e635000d.chunk.js",
-  "main.js.map": "/static/js/main.e635000d.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-  "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-  "static/js/2.befa1870.chunk.js": "/static/js/2.befa1870.chunk.js",
-  "static/js/2.befa1870.chunk.js.map": "/static/js/2.befa1870.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.30fb842ad7263d7c8a3c18002b8744b4.js": "/precache-manifest.30fb842ad7263d7c8a3c18002b8744b4.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/main.551ccf79.chunk.css.map": "/static/css/main.551ccf79.chunk.css.map",
-  "static/media/index.css": "/static/media/SuisseIntl-Book-WebM.c749c5fb.svg"
+  "main.css": "/razuv/static/css/main.d8ed2d71.chunk.css",
+  "main.js": "/razuv/static/js/main.fe0a7e1a.chunk.js",
+  "main.js.map": "/razuv/static/js/main.fe0a7e1a.chunk.js.map",
+  "runtime~main.js": "/razuv/static/js/runtime~main.3205c953.js",
+  "runtime~main.js.map": "/razuv/static/js/runtime~main.3205c953.js.map",
+  "static/js/2.befa1870.chunk.js": "/razuv/static/js/2.befa1870.chunk.js",
+  "static/js/2.befa1870.chunk.js.map": "/razuv/static/js/2.befa1870.chunk.js.map",
+  "index.html": "/razuv/index.html",
+  "precache-manifest.46a8517f3e68e9de664c0d2dc01fab44.js": "/razuv/precache-manifest.46a8517f3e68e9de664c0d2dc01fab44.js",
+  "service-worker.js": "/razuv/service-worker.js",
+  "static/css/main.d8ed2d71.chunk.css.map": "/razuv/static/css/main.d8ed2d71.chunk.css.map",
+  "static/media/index.css": "/razuv/static/media/SuisseIntl-Book-WebM.c749c5fb.svg"
 }
