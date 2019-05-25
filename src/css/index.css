@@ -21,3 +21,6 @@ body {
     letter-spacing: normal;
     background-color: #000000;
 }
+#root {
+    height: 100vh;
+}

@@ -3,8 +3,9 @@ import Menu from './Menu.js';
 import Works from './Works.js';
 import Bio from './Bio.js';
 import Contacts from './Contacts.js';
+import Work from './Work.js';
 import './css/App.css';
-import data from './data/data.json'
+import data from './data/data.json';
 
 
 class App extends Component {
@@ -15,7 +16,7 @@ class App extends Component {
          menuItems: data.menu.ru,
          lang: true,
          name: data.app.name.ru,
-         work: null
+         currentWorkId: null
       }
    }
 
@@ -35,30 +36,39 @@ class App extends Component {
          return;
       }
       this.setState({
-         active: id,
-         work: null
+         active: id
       })
    }
 
-   handleTileClick(work) {
+   handleTileClick(id) {
       this.setState({
-         active: 0,
-         work: work
+         active: 'work',
+         currentWorkId: id
+      })
+   }
+
+   handleWorkClose() {
+      this.setState({
+         active: 0
       })
    }
 
    render() {
-      let works = this.state.lang ? data.works.ru : data.works.en;
+      const works = this.state.lang ? data.works.ru : data.works.en;
+      const currentWork = works[this.state.currentWorkId];
       let activeArea;
       switch (this.state.active) {
          case 0:
-            activeArea = <Works works={works} years={data.works.years} currentWork={this.state.work} onTileClick={this.handleTileClick.bind(this)}/>
+            activeArea = <Works works={works} years={data.works.years} handleTileClick={this.handleTileClick.bind(this)}/>
             break;
          case 1:
             activeArea = <Bio lang={this.state.lang} onContactClick={this.handleContactClick.bind(this)}/>
             break;
          case 2:
             activeArea = <Contacts lang={this.state.lang} />
+            break;
+         case 'work':
+            activeArea = <Work work={currentWork} onWorkClose={this.handleWorkClose.bind(this)} lang={this.state.lang}/>
             break;
          default:
             break;

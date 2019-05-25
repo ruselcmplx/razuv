@@ -1,20 +1,72 @@
 .Work {
     position: relative;
     margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .Work_header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
+    flex: 0 0 30px;
 }
 
 .Work_content {
+    display: flex;
     border: 1px solid white;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+    cursor: none;
+    padding: 10px;
+    user-select: none;
+    z-index: 10;
+}
+
+.Work_content > span {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Cursor {
+    position: absolute;
+    cursor: none;
+    user-select: none;
 }
 
 .Work_image {
     position: relative;
     margin: auto;
     top: 90px;
+}
+
+.carousel-appear {
+  opacity: 0.01;
+}
+
+.carousel-appear.carousel-appear-active {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
+
+.carousel-enter {
+  opacity: 0.01;
+}
+
+.carousel-enter.carousel-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+
+.carousel-leave {
+  opacity: 1;
+}
+
+.carousel-leave.carousel-leave-active {
+  opacity: 0.01;
+  transition: opacity 50ms ease-in;
 }

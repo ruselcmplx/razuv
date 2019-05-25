@@ -1,15 +1,16 @@
 .App {
   background-color: #000000;
   height: 100%;
+  display: flex;
 }
 
 .App .ActiveArea {
-    display: inline-block;
     position: relative;
     color: #ffffff;
     margin-top: 30px;
     margin-left: 180px;
-    width: calc(100% - 180px);
+    flex: 1 1 auto;
+    padding-bottom: 20px;
 }
 
 .App a {

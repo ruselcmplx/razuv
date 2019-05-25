@@ -4,7 +4,7 @@ import './css/Tile.css'
 class Tile extends Component {
 
    onTileClick() {
-      this.props.onTileClick(this.props.data);
+      this.props.onTileClick(this.props.data.id);
    }
 
    render() {
