@@ -1,16 +1,31 @@
 import React, { Component } from 'react';
 import Tile from './Tile.js';
-import './css/Works.css'
+import './css/Works.css';
 
 class Works extends Component {
    renderTiles(works) {
       let tiles = [];
-      works.map(tile => tiles.push(<Tile key={tile.id} data={tile} onTileClick={this.handleTileClick.bind(this)}/>));
+      works.map(tile => {
+         let clickFunc;
+         if (tile.link) {
+            clickFunc = this.handleLinkClick.bind(tile.link);
+         } else {
+            clickFunc = this.handleTileClick.bind(this);
+         }
+         tiles.push(<Tile key={tile.id} data={tile} onTileClick={clickFunc}/>);
+         return true;
+      });
       return tiles;
    }
 
    handleTileClick(id) {
       this.props.handleTileClick(id);
+   }
+
+   handleLinkClick() {
+      if (this !== '#') {
+         window.open(this);
+      }
    }
 
    render() {

@@ -23,7 +23,7 @@ class App extends Component {
    handleContactClick() {
       this.setState({
          active: 2
-      })
+      });
    }
 
    handleMenuClick(id) {
@@ -44,13 +44,13 @@ class App extends Component {
       this.setState({
          active: 'work',
          currentWorkId: id
-      })
+      });
    }
 
    handleWorkClose() {
       this.setState({
          active: 0
-      })
+      });
    }
 
    render() {
@@ -59,16 +59,16 @@ class App extends Component {
       let activeArea;
       switch (this.state.active) {
          case 0:
-            activeArea = <Works works={works} years={data.works.years} handleTileClick={this.handleTileClick.bind(this)}/>
+            activeArea = <Works works={works} years={data.works.years} handleTileClick={this.handleTileClick.bind(this)}/>;
             break;
          case 1:
-            activeArea = <Bio lang={this.state.lang} onContactClick={this.handleContactClick.bind(this)}/>
+            activeArea = <Bio lang={this.state.lang} onContactClick={this.handleContactClick.bind(this)}/>;
             break;
          case 2:
-            activeArea = <Contacts lang={this.state.lang} />
+            activeArea = <Contacts lang={this.state.lang} />;
             break;
          case 'work':
-            activeArea = <Work work={currentWork} onWorkClose={this.handleWorkClose.bind(this)} lang={this.state.lang}/>
+            activeArea = <Work work={currentWork} onWorkClose={this.handleWorkClose.bind(this)} lang={this.state.lang}/>;
             break;
          default:
             break;

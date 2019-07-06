@@ -44,15 +44,16 @@ class Work extends Component {
       const work = this.props.work;
       const id = work.id;
       const name = work.name;
+      const year = work.year;
       const closeButtonText = this.props.lang ? 'Закрыть' : 'Close';
       const currentImageId = this.state.currentImageId;
-      const newItems = [<img className="Carousel__image" key={currentImageId} alt='' src={this.images[id][currentImageId].src} />]
+      const newItems = [<img className="Work_content__image" key={currentImageId} alt='' src={this.images[id][currentImageId].src} />]
       if (this.images.hasOwnProperty(id)) {
          return(
             <div className="Work">
                <div className="Work_header">
-                  <div className="Work_name">{name}</div>
-                  <div className="Work_site">{name}</div>
+                  <div className="Work_title Work_name">{name}</div>
+                  <div className="Work_title Work_year">{year}</div>
                   <div className="Work_closeButton" onClick={this.onClose.bind(this)}>{closeButtonText}</div>
                </div>
                <div ref="content" className="Work_content"
