@@ -21,8 +21,13 @@
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
+    "braces": "^3.0.2",
     "gh-pages": "^1.2.0",
-    "merge": ">=1.2.1"
+    "handlebars": ">=4.1.0",
+    "js-yaml": ">=3.13.1",
+    "mem": "^5.1.1",
+    "merge": ">=1.2.1",
+    "typescript": "^3.5.2"
   },
   "browserslist": [
     ">0.2%",
