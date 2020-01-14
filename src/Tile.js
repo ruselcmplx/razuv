@@ -20,8 +20,8 @@ class Tile extends Component {
          className += ' Tile_name-noact';
       }
       if (is_nda) {
-         className += ' Tile_name-nda'
-         nda = <div className='Tile_name-nda'>NDA</div>
+         className += ' Tile_name-nda';
+         nda = <div className='Tile_name-nda'>NDA</div>;
       }
 
       return(
