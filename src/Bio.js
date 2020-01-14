@@ -7,7 +7,8 @@ let links = {
    "noise": "http://razuvaev.tumblr.com",
    "relap": "https://relap.io",
    "gridly": "https://gridly.ru",
-   "strelka": "http://strelka.com"
+   "strelka": "http://strelka.com",
+   "mrg": "https://corp.mail.ru/ru/"
 }
 
 
@@ -32,7 +33,8 @@ class Bio extends Component {
             "teams": "Команды",
             "teamsLinks":
                <div>
-                  <p><a href={links.relap}>Relap.io</a></p>
+                  <p><a href={links.mrg}>Мэйл.ру Групп</a></p>
+                  <p><a href={links.relap}>Релап</a></p>
                   <p>Блэкайдиа</p>
                   <p><a href={links.gridly}>Гридли</a></p>
                   <p><a href={links.strelka}>Институт «Стрелка»</a></p>
@@ -55,6 +57,7 @@ class Bio extends Component {
             "teams": "Teams",
             "teamsLinks": 
                <div className="TeamLinks">
+                  <p><a href={links.mrg}>Mail.ru Group</a></p>
                   <p><a href={links.relap}>Relap.io</a></p>
                   <p>Blackidea</p>
                   <p><a href={links.gridly}>Gridly</a></p>
