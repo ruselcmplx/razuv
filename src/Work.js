@@ -47,8 +47,8 @@ class Work extends Component {
       const year = work.year;
       const closeButtonText = this.props.lang ? 'Закрыть' : 'Close';
       const currentImageId = this.state.currentImageId;
-      const newItems = [<img className="Work_content__image" key={currentImageId} alt='' src={this.images[id][currentImageId].src} />]
       if (this.images.hasOwnProperty(id)) {
+         const newItems = [<img className="Work_content__image" key={currentImageId} alt='' src={this.images[id][currentImageId].src} />]
          return(
             <div className="Work">
                <div className="Work_header">
