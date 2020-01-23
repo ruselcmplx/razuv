@@ -44,7 +44,8 @@
             {"id": 19, "name": "LUNAZINE", "tags": ["айдентика"], "year": 2015, "active": true, "link": null},
             {"id": 20, "name": "Playpoint", "tags": ["айдентика","веб"], "year": 2015, "active": true, "link": null},
             {"id": 21, "name": "Defnox", "tags": ["айдентика"], "year": 2015, "active": true, "link": null},
-            {"id": 22, "name": "Кофемолл", "tags": ["айдентика"], "year": 2014, "active": true, "link": null}
+            {"id": 22, "name": "Кофемолл", "tags": ["айдентика"], "year": 2014, "active": true, "link": null},
+            {"id": 23, "name": "Полиция Качества", "tags": ["айдентика"], "year": 2019, "active": true, "link": "https://kachestvo.media"}
         ]
         ,
         "en": [
@@ -70,7 +71,8 @@
             {"id": 19, "name": "LUNAZINE", "tags": ["identity"], "year": 2015, "active": true},
             {"id": 20, "name": "Playpoint", "tags": ["identity","web"], "year": 2015, "active": true},
             {"id": 21, "name": "Defnox", "tags": ["identity"], "year": 2015, "active": true},
-            {"id": 22, "name": "Coffeemall", "tags": ["identity"], "year": 2014, "active": true}
+            {"id": 22, "name": "Coffeemall", "tags": ["identity"], "year": 2014, "active": true},
+            {"id": 23, "name": "Quality Police", "tags": ["identity"], "year": 2019, "active": true, "link": "https://kachestvo.media"}
         ]
     }
 }
