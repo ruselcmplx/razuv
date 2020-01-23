@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "274cf365219881366e8b83067c8e9fb4",
+    "revision": "c40b8c393f7d44651e7126c99d31edea",
     "url": "/index.html"
   },
   {
-    "revision": "0e36198f8d5e020d7dd0",
-    "url": "/static/css/main.a5798c17.chunk.css"
+    "revision": "2aed8256b4332af297bc",
+    "url": "/static/css/main.fa1ecad7.chunk.css"
   },
   {
-    "revision": "3e40422bfe7890f2acd0",
-    "url": "/static/js/2.1031df41.chunk.js"
+    "revision": "0ab1bbfaae462a9aa4f8",
+    "url": "/static/js/2.ca8daebc.chunk.js"
   },
   {
     "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/static/js/2.1031df41.chunk.js.LICENSE"
+    "url": "/static/js/2.ca8daebc.chunk.js.LICENSE"
   },
   {
-    "revision": "0e36198f8d5e020d7dd0",
-    "url": "/static/js/main.a077dfa5.chunk.js"
+    "revision": "2aed8256b4332af297bc",
+    "url": "/static/js/main.447078b7.chunk.js"
   },
   {
     "revision": "d3a777200d560fc58328",
@@ -32,11 +32,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/SuisseIntl-Book-WebM.5f777e79.ttf"
   },
   {
-    "revision": "904a092428345cb6615eaf57c2a31e86",
-    "url": "/static/media/SuisseIntl-Book-WebM.904a0924.svg"
-  },
-  {
     "revision": "c20b7d1194bedb79d9c3d4e2d55941e3",
     "url": "/static/media/SuisseIntl-Book-WebM.c20b7d11.woff"
+  },
+  {
+    "revision": "c749c5fbbb83e590263b8832a3ec1ef1",
+    "url": "/static/media/SuisseIntl-Book-WebM.c749c5fb.svg"
   }
 ]);
