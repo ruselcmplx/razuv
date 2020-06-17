@@ -1,32 +1,32 @@
 .Tile {
-    position: relative;
-    box-sizing: border-box;
-    display: inline-block;
-    margin: 0 25px 25px 0px;
-    width: 180px;
-    height: 180px;
-    border: 1px solid #ffffff;
-    padding: 15px;
-    clear: both;
-    overflow: hidden;
-    vertical-align: top;
-    cursor: pointer;
+   position: relative;
+   box-sizing: border-box;
+   display: inline-block;
+   margin: 0 25px 25px 0px;
+   width: 180px;
+   height: 180px;
+   border: 1px solid #ffffff;
+   padding: 15px;
+   clear: both;
+   overflow: hidden;
+   vertical-align: top;
+   cursor: pointer;
 }
 
 .Tile:hover {
-    border-color: #fffaaa;
+   border-color: #fffaaa;
 }
 
 .Tile_name-noact {
-    opacity: 0.5;
+   opacity: 0.5;
 }
 
 .Tile_name-nda {
-    text-decoration: line-through;
+   text-decoration: line-through;
 }
 
 .Tile_tags {
-    width: 120px;
-    position: absolute;
-    bottom: 10px;
+   width: 120px;
+   position: absolute;
+   bottom: 10px;
 }
