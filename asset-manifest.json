@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.7cdeb9f5.chunk.css",
+    "main.css": "/static/css/main.623c943e.chunk.css",
     "main.js": "/static/js/main.09974080.chunk.js",
     "main.js.map": "/static/js/main.09974080.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.65a4a2ce.js",
@@ -8,16 +8,16 @@
     "static/js/2.a3768831.chunk.js": "/static/js/2.a3768831.chunk.js",
     "static/js/2.a3768831.chunk.js.map": "/static/js/2.a3768831.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ed24886ac0cfa1403e65bd4bcb81284c.js": "/precache-manifest.ed24886ac0cfa1403e65bd4bcb81284c.js",
+    "precache-manifest.a1827047af260bb2fcbaf271acf82306.js": "/precache-manifest.a1827047af260bb2fcbaf271acf82306.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.7cdeb9f5.chunk.css.map": "/static/css/main.7cdeb9f5.chunk.css.map",
+    "static/css/main.623c943e.chunk.css.map": "/static/css/main.623c943e.chunk.css.map",
     "static/js/2.a3768831.chunk.js.LICENSE.txt": "/static/js/2.a3768831.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/SuisseIntl-Book-WebM.c749c5fb.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.65a4a2ce.js",
     "static/js/2.a3768831.chunk.js",
-    "static/css/main.7cdeb9f5.chunk.css",
+    "static/css/main.623c943e.chunk.css",
     "static/js/main.09974080.chunk.js"
   ]
 }
