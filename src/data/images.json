@@ -31,8 +31,8 @@
     ],
     "18": [
         {"id": 0, "src":"/works/Воскресенье/1.png"},
-        {"id": 1, "src":"/works/Воскресенье/2.png"},
-        {"id": 2, "src":"/works/Воскресенье/3.png"}
+        {"id": 1, "src":"/works/Воскресенье/2.jpg"},
+        {"id": 2, "src":"/works/Воскресенье/3.jpg"}
     ],
     "19": [
         {"id": 0, "src":"/works/Lunazine/1.png"},
@@ -54,6 +54,6 @@
     ],
     "22": [
         {"id": 0, "src":"/works/Кофемолл/1.jpg"},
-        {"id": 1, "src":"/works/Кофемолл/2.mp4"}
+        {"id": 1, "type": "video", "src":"/works/Кофемолл/2.mp4"}
     ]
 }

@@ -23,6 +23,7 @@
    padding: 10px;
    user-select: none;
    z-index: 10;
+   overflow: hidden;
 }
 
 .Work_content>span {
@@ -55,6 +56,7 @@
    position: absolute;
    cursor: none;
    user-select: none;
+   z-index: 100;
 }
 
 .carousel-appear {
@@ -75,11 +77,11 @@
    transition: opacity 300ms ease-in;
 }
 
-.carousel-leave {
-   opacity: 1;
+.carousel-exit {
+   opacity: 0.01;
 }
 
-.carousel-leave.carousel-leave-active {
+.carousel-exit.carousel-exit-active {
    opacity: 0.01;
    transition: opacity 50ms ease-in;
 }

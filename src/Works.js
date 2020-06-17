@@ -9,10 +9,10 @@ class Works extends Component {
          let clickFunc;
          if (tile.link) {
             clickFunc = this.handleLinkClick.bind(tile.link);
-         } else {
+         } else if (tile.active) {
             clickFunc = this.handleTileClick.bind(this);
          }
-         tiles.push(<Tile key={tile.id} data={tile} onTileClick={clickFunc}/>);
+         tiles.push(<Tile key={tile.id} data={tile} onTileClick={tile.active ? clickFunc: () => { return; }}/>);
          return true;
       });
       return tiles;

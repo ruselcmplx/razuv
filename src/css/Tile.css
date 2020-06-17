@@ -15,6 +15,7 @@
 
 .Tile:hover {
    border-color: #fffaaa;
+   text-decoration: underline;
 }
 
 .Tile_name-noact {

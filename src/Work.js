@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { CSSTransitionGroup } from 'react-transition-group';
+import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import './css/Work.css';
 import images from './data/images.json';
 
@@ -42,12 +42,22 @@ class Work extends Component {
 
    render() {
       const work = this.props.work;
-      const id = work.id;
-      const name = work.name;
-      const year = work.year;
+      const [ id, name, year ] = [ work.id, work.name, work.year];
       const closeButtonText = this.props.lang ? 'Закрыть' : 'Close';
       const currentImageId = this.state.currentImageId;
-      const newItems = [<img className="Work_content__image" key={currentImageId} alt='' src={this.images[id][currentImageId].src} />]
+      const items = this.images[id].map((item, i) => (
+         <CSSTransition
+            key={i}
+            classNames="carousel"
+            timeout={{ enter: 1000, exit: 0 }}
+         >
+            { item.type === 'video' ?
+               <video autoPlay loop className="Work_content__image" key={item.id} alt='' src={item.src} /> :
+               <img className="Work_content__image" key={item.id} alt='' src={item.src} /> 
+            }
+         </CSSTransition>
+      ))
+      const images = items.filter(item => item.key === currentImageId.toString());
       if (this.images.hasOwnProperty(id)) {
          return(
             <div className="Work">
@@ -60,13 +70,9 @@ class Work extends Component {
                   onMouseMove={this.onMouseMove.bind(this)}
                   onClick={this.handlerContentClick.bind(this)}
                >
-               <CSSTransitionGroup
-                  transitionName="carousel"
-                  transitionEnterTimeout={300}
-                  transitionLeave={false}
-               >
-                  {newItems}
-               </CSSTransitionGroup>
+                  <TransitionGroup>
+                     {images}
+                  </TransitionGroup>
                </div>
                <div ref="cursor" className="Cursor" 
                   onClick={this.handlerContentClick.bind(this)}
