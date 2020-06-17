@@ -26,7 +26,7 @@
    overflow: hidden;
 }
 
-.Work_content>span {
+.Work_content>div {
    height: 100%;
    display: flex;
    justify-content: center;
