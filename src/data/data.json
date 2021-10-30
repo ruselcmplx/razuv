@@ -51,7 +51,7 @@
         ]
         ,
         "en": [
-            {"id": 23, "name": "VK", "tags": ["identity", "web"], "year": 2021, "active": null }
+            {"id": 23, "name": "VK", "tags": ["identity", "web"], "year": 2021, "active": null },
             {"id": 24, "name": "СХЕМА", "tags": ["identity", "web"], "year": 2021, "active": true, "link": "https://cxema.co"},
             {"id": 0, "name": "Mail.ru", "tags": ["identity", "web"], "year": 2019, "active": null },
             {"id": 1, "name": "Relap.io", "tags": ["identity", "web"], "year": 2019, "active": true, "link": "https://www.behance.net/gallery/79129395/Relap-Identity-Brand-Book"},
