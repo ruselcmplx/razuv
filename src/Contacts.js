@@ -19,7 +19,7 @@ let strings = {
    },
    "en": {
       "header": "You may message me here",
-      "headerSocials": "...or here",
+      "headerSocials": "Or here",
       "messagePH": "Your message",
       "emailPH": "Your email",
       "send": "Send",
