@@ -22,8 +22,6 @@
     "works": {
         "years": [2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014],
         "ru": [
-            {"id": 23, "name": "VK", "tags": ["айдентика", "веб"], "year": 2021, "active": null },
-            {"id": 24, "name": "СХЕМА", "tags": ["айдентика", "веб"], "year": 2021, "active": true, "link": "https://cxema.co"},
             {"id": 0, "name": "Mail.ru", "tags": ["айдентика", "веб"], "year": 2019, "active": null },
             {"id": 1, "name": "Relap.io", "tags": ["айдентика", "веб"], "year": 2019, "active": true, "link": "https://www.behance.net/gallery/79129395/Relap-Identity-Brand-Book"},
             {"id": 2, "name": "РМС Санс", "tags": ["шрифт"], "year": 2019, "active": true, "link": "https://www.behance.net/gallery/78220881/RMS-Sans"},
@@ -47,12 +45,12 @@
             {"id": 20, "name": "Playpoint", "tags": ["айдентика","веб"], "year": 2015, "active": true, "link": null},
             {"id": 21, "name": "Defnox", "tags": ["айдентика"], "year": 2015, "active": true, "link": null},
             {"id": 22, "name": "Кофемолл", "tags": ["айдентика"], "year": 2014, "active": true, "link": null},
-            {"id": 23, "name": "Полиция Качества", "tags": ["айдентика"], "year": 2019, "active": true, "link": "https://kachestvo.media"}
+            {"id": 23, "name": "Полиция Качества", "tags": ["айдентика"], "year": 2019, "active": true, "link": "https://kachestvo.media"},
+            {"id": 24, "name": "VK", "tags": ["айдентика", "веб"], "year": 2021, "active": null },
+            {"id": 25, "name": "СХЕМА", "tags": ["айдентика", "веб"], "year": 2021, "active": true, "link": "http://rms.group/scheme.html"}
         ]
         ,
         "en": [
-            {"id": 23, "name": "VK", "tags": ["identity", "web"], "year": 2021, "active": null },
-            {"id": 24, "name": "СХЕМА", "tags": ["identity", "web"], "year": 2021, "active": true, "link": "https://cxema.co"},
             {"id": 0, "name": "Mail.ru", "tags": ["identity", "web"], "year": 2019, "active": null },
             {"id": 1, "name": "Relap.io", "tags": ["identity", "web"], "year": 2019, "active": true, "link": "https://www.behance.net/gallery/79129395/Relap-Identity-Brand-Book"},
             {"id": 2, "name": "RMS Sans", "tags": ["font"], "year": 2019, "active": true, "link": "https://www.behance.net/gallery/78220881/RMS-Sans"},
@@ -76,7 +74,9 @@
             {"id": 20, "name": "Playpoint", "tags": ["identity","web"], "year": 2015, "active": true},
             {"id": 21, "name": "Defnox", "tags": ["identity"], "year": 2015, "active": true},
             {"id": 22, "name": "Coffeemall", "tags": ["identity"], "year": 2014, "active": true},
-            {"id": 23, "name": "Quality Police", "tags": ["identity"], "year": 2019, "active": true, "link": "https://kachestvo.media"}
+            {"id": 23, "name": "Quality Police", "tags": ["identity"], "year": 2019, "active": true, "link": "https://kachestvo.media"},
+            {"id": 24, "name": "VK", "tags": ["identity", "web"], "year": 2021, "active": null },
+            {"id": 25, "name": "СХЕМА", "tags": ["identity", "web"], "year": 2021, "active": true, "link": "http://rms.group/scheme.html"}
         ]
     }
 }
